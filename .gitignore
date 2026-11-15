@@ -1,0 +1,8 @@
+.env
+*.tfstate
+*.tfstate.*
+.terraform/
+terraform.tfvars
+.streamlit/secrets.toml
+__pycache__/
+*.csv

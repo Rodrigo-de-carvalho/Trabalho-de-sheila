@@ -1,0 +1,2 @@
+aiven_project_name = "SEU-PROJETO-AQUI"
+# aiven_api_token: NAO coloque aqui. Use: $env:TF_VAR_aiven_api_token = "..."
