@@ -61,11 +61,14 @@ flowchart LR
    streamlit run dashboard/app.py
    ```
    Com `DATABASE_URL` definida ele lê da Aiven; sem ela, usa o parquet local (modo demonstração).
-6. **Publicar no Render (plano Free):**
-   1. Suba o repositório no GitHub.
-   2. No [Render](https://render.com): *New +* → *Blueprint* → escolha este repositório (ele lê o `render.yaml`).
-   3. Quando pedir, preencha `DATABASE_URL` com a *Service URI* da Aiven (console Aiven → serviço → Overview). Use o formato `postgres://...?sslmode=require`.
-   4. Aguarde o build; a URL pública `https://dashboard-microcredito.onrender.com` (ou similar) é o link do dashboard.
+6. **Publicar no Render (plano Free):** *New +* → *Web Service* → *Public Git Repository* com a URL deste repositório. Configure:
+   - Build: `pip install -r requirements.txt`
+   - Start: `streamlit run dashboard/app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true`
+   - Instance type: **Free**; variáveis `PYTHON_VERSION=3.12.7` e `DATABASE_URL` (Service URI da Aiven, só no painel do Render).
+   (O arquivo `render.yaml` traz a mesma configuração para quem preferir *Blueprint*.)
+
+   **Dashboard online:** https://dashboard-microcredito.onrender.com
+
    > No plano Free o Render "dorme" após ~15 min sem acesso e leva cerca de 1 min para acordar. Abra o link antes da apresentação. O banco free da Aiven também desliga por inatividade.
 
 ## Tratamento de dados (ETL)
