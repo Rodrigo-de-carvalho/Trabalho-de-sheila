@@ -16,9 +16,9 @@ variable "service_name" {
 }
 
 variable "cloud_name" {
-  description = "Cloud/regiao. O free tier so existe em algumas regioes - confira na console"
+  description = "Cloud/regiao do free tier (DigitalOcean San Francisco, confirmado na console)"
   type        = string
-  default     = "google-europe-west1"
+  default     = "do-sfo"
 }
 
 variable "pg_plan" {
