@@ -1,0 +1,13 @@
+# Blueprint do Render: New + > Blueprint > escolha este repositorio
+services:
+  - type: web
+    name: dashboard-microcredito
+    runtime: python
+    plan: free
+    buildCommand: pip install -r requirements.txt
+    startCommand: streamlit run dashboard/app.py --server.port $PORT --server.address 0.0.0.0 --server.headless true
+    envVars:
+      - key: PYTHON_VERSION
+        value: 3.12.7
+      - key: DATABASE_URL
+        sync: false   # voce cola a URI da Aiven no painel do Render (nao fica no codigo)
