@@ -20,10 +20,7 @@ resource "aiven_pg" "microcredito" {
   plan         = var.pg_plan # free tier
 
   termination_protection = false
-
-  pg_user_config {
-    pg_version = "16"
-  }
+  # Sem pg_version fixa: o plano Free nao permite escolher versao (a Aiven usa a padrao, hoje PostgreSQL 18)
 }
 
 # Banco de dados logico do projeto
