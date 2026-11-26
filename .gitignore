@@ -6,3 +6,5 @@ terraform.tfvars
 .streamlit/secrets.toml
 __pycache__/
 *.csv
+.terraform.lock.hcl
+.venv/
