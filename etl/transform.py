@@ -6,7 +6,7 @@ Uso:
 Tratamentos aplicados (criterio "qualidade do ETL"):
   * tipagem: datas -> DATE, valores com virgula decimal -> DOUBLE
   * nulos: numero_de_operacoes = -1 (dado sigiloso/mascarado pelo BCB) vira NULL;
-           'Indisponivel' em porte vira 'Nao informado'
+           'Indisponível' em porte vira 'Não informado'
   * enriquecimento: UF -> regiao, faixa de renda/porte unificada, flag de microcredito (proxy)
   * agregacao: remove cnae/submodalidade/indexador para caber nos 1 GB do plano free
 """
@@ -26,7 +26,7 @@ REGIOES = {
 def build_sql(files_glob: str) -> str:
     regiao_case = "CASE uf " + " ".join(
         f"WHEN '{u}' THEN '{r}'" for r, ufs in REGIOES.items() for u in ufs
-    ) + " ELSE 'Nao informado' END"
+    ) + " ELSE 'Não informado' END"
     num = lambda c: f"COALESCE(TRY_CAST(REPLACE({c}, ',', '.') AS DOUBLE), 0)"
     return f"""
     WITH raw AS (
@@ -39,7 +39,7 @@ def build_sql(files_glob: str) -> str:
         {regiao_case}                                             AS regiao,
         segmento,
         cliente,
-        CASE WHEN porte LIKE 'Indispon%' THEN 'Nao informado' ELSE porte END AS porte,
+        CASE WHEN porte LIKE 'Indispon%' THEN 'Não informado' ELSE porte END AS porte,
         modalidade,
         origem,
         -- microcredito (proxy): PJ micro/pequena empresa ou PF ate 2 salarios minimos
