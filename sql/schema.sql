@@ -25,3 +25,14 @@ CREATE INDEX IF NOT EXISTS idx_fato_micro    ON fato_credito (perfil_microcredit
 
 COMMENT ON TABLE  fato_credito IS 'SCR/Banco Central 2025, agregado por mes x UF x segmento x cliente x porte x modalidade x origem';
 COMMENT ON COLUMN fato_credito.perfil_microcredito IS 'Proxy: PJ micro/pequena OU PF com renda ate 2 SM / sem rendimento';
+
+-- Recorte de gênero x raça (ODS 5 e 18): IBGE Censo 2022, tabela 10176
+CREATE TABLE IF NOT EXISTS ibge_familias_uf (
+    uf        CHAR(2)      NOT NULL,
+    sexo      VARCHAR(10)  NOT NULL CHECK (sexo IN ('Homens','Mulheres')),
+    cor_raca  VARCHAR(20)  NOT NULL,
+    familias  INTEGER      NOT NULL,
+    PRIMARY KEY (uf, sexo, cor_raca)
+);
+
+COMMENT ON TABLE ibge_familias_uf IS 'IBGE Censo 2022 (tabela 10176): famílias por sexo e cor ou raça da pessoa responsável, por UF';
