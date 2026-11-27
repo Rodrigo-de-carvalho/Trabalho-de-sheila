@@ -1,6 +1,6 @@
 # Acesso a Microcrédito e Inclusão Financeira Regional
 
-Projeto prático de Computação em Nuvem — **Grupo 5** (Pedro Gusava, Rodrigo de Carvalho, Gabriel Oliveira, Victor Costa, Giovana Amaral).
+Projeto prático de Computação em Nuvem — **Grupo 5** (Pedro Gustavo, Rodrigo de Carvalho, Gabriel Oliveira, Victor Costa, Giovana Amaral).
 Pipeline de dados em nuvem a custo zero com **Aiven (free tier)**, voltado às ODS 5 e 18 (inclusão financeira regional e por perfil).
 
 **Fonte pública oficial:** SCR – Sistema de Informações de Crédito, Banco Central do Brasil (dados abertos), 12 meses de 2025 (~1,2 GB de CSV, 3,8 mi de linhas).
