@@ -1,0 +1,325 @@
+uf,sexo,cor_raca,familias
+AC,Homens,Amarela,242
+AC,Homens,Branca,20737
+AC,Homens,Indígena,1066
+AC,Homens,Parda,70277
+AC,Homens,Preta,12600
+AC,Homens,Sem declaração,0
+AC,Mulheres,Amarela,351
+AC,Mulheres,Branca,19771
+AC,Mulheres,Indígena,917
+AC,Mulheres,Parda,77755
+AC,Mulheres,Preta,11087
+AC,Mulheres,Sem declaração,0
+AL,Homens,Amarela,582
+AL,Homens,Branca,117515
+AL,Homens,Indígena,1970
+AL,Homens,Parda,249241
+AL,Homens,Preta,52457
+AL,Homens,Sem declaração,0
+AL,Mulheres,Amarela,1261
+AL,Mulheres,Branca,113887
+AL,Mulheres,Indígena,2175
+AL,Mulheres,Parda,280305
+AL,Mulheres,Preta,51589
+AL,Mulheres,Sem declaração,111
+AM,Homens,Amarela,993
+AM,Homens,Branca,75880
+AM,Homens,Indígena,16952
+AM,Homens,Parda,304423
+AM,Homens,Preta,32258
+AM,Homens,Sem declaração,12
+AM,Mulheres,Amarela,1104
+AM,Mulheres,Branca,78357
+AM,Mulheres,Indígena,16991
+AM,Mulheres,Parda,350244
+AM,Mulheres,Preta,26047
+AM,Mulheres,Sem declaração,70
+AP,Homens,Amarela,148
+AP,Homens,Branca,14469
+AP,Homens,Indígena,362
+AP,Homens,Parda,50252
+AP,Homens,Preta,11108
+AP,Homens,Sem declaração,0
+AP,Mulheres,Amarela,129
+AP,Mulheres,Branca,17700
+AP,Mulheres,Indígena,378
+AP,Mulheres,Parda,65183
+AP,Mulheres,Preta,12821
+AP,Mulheres,Sem declaração,0
+BA,Homens,Amarela,2302
+BA,Homens,Branca,389644
+BA,Homens,Indígena,9599
+BA,Homens,Parda,1070387
+BA,Homens,Preta,448135
+BA,Homens,Sem declaração,162
+BA,Mulheres,Amarela,2980
+BA,Mulheres,Branca,349159
+BA,Mulheres,Indígena,11575
+BA,Mulheres,Parda,1188552
+BA,Mulheres,Preta,551001
+BA,Mulheres,Sem declaração,216
+CE,Homens,Amarela,1609
+CE,Homens,Branca,313809
+CE,Homens,Indígena,4791
+CE,Homens,Parda,729534
+CE,Homens,Preta,103563
+CE,Homens,Sem declaração,335
+CE,Mulheres,Amarela,2667
+CE,Mulheres,Branca,319094
+CE,Mulheres,Indígena,4796
+CE,Mulheres,Parda,913259
+CE,Mulheres,Preta,108041
+CE,Mulheres,Sem declaração,326
+DF,Homens,Amarela,2179
+DF,Homens,Branca,158522
+DF,Homens,Indígena,705
+DF,Homens,Parda,192009
+DF,Homens,Preta,50307
+DF,Homens,Sem declaração,85
+DF,Mulheres,Amarela,1940
+DF,Mulheres,Branca,140853
+DF,Mulheres,Indígena,1066
+DF,Mulheres,Parda,192788
+DF,Mulheres,Preta,47562
+DF,Mulheres,Sem declaração,62
+ES,Homens,Amarela,650
+ES,Homens,Branca,257707
+ES,Homens,Indígena,1348
+ES,Homens,Parda,289651
+ES,Homens,Preta,76590
+ES,Homens,Sem declaração,11
+ES,Mulheres,Amarela,937
+ES,Mulheres,Branca,175415
+ES,Mulheres,Indígena,1445
+ES,Mulheres,Parda,251201
+ES,Mulheres,Preta,68742
+ES,Mulheres,Sem declaração,59
+GO,Homens,Amarela,2984
+GO,Homens,Branca,392532
+GO,Homens,Indígena,1686
+GO,Homens,Parda,575253
+GO,Homens,Preta,121047
+GO,Homens,Sem declaração,151
+GO,Mulheres,Amarela,3342
+GO,Mulheres,Branca,315257
+GO,Mulheres,Indígena,1927
+GO,Mulheres,Parda,528833
+GO,Mulheres,Preta,102082
+GO,Mulheres,Sem declaração,89
+MA,Homens,Amarela,718
+MA,Homens,Branca,162257
+MA,Homens,Indígena,1563
+MA,Homens,Parda,514662
+MA,Homens,Preta,125066
+MA,Homens,Sem declaração,39
+MA,Mulheres,Amarela,1522
+MA,Mulheres,Branca,170762
+MA,Mulheres,Indígena,2207
+MA,Mulheres,Parda,641583
+MA,Mulheres,Preta,152643
+MA,Mulheres,Sem declaração,57
+MG,Homens,Amarela,5849
+MG,Homens,Branca,1372172
+MG,Homens,Indígena,3256
+MG,Homens,Parda,1471009
+MG,Homens,Preta,420459
+MG,Homens,Sem declaração,308
+MG,Mulheres,Amarela,5393
+MG,Mulheres,Branca,1041375
+MG,Mulheres,Indígena,3578
+MG,Mulheres,Parda,1267018
+MG,Mulheres,Preta,393989
+MG,Mulheres,Sem declaração,321
+MS,Homens,Amarela,4128
+MS,Homens,Branca,178875
+MS,Homens,Indígena,3395
+MS,Homens,Parda,192488
+MS,Homens,Preta,34435
+MS,Homens,Sem declaração,41
+MS,Mulheres,Amarela,2560
+MS,Mulheres,Branca,143518
+MS,Mulheres,Indígena,4423
+MS,Mulheres,Parda,179901
+MS,Mulheres,Preta,30410
+MS,Mulheres,Sem declaração,11
+MT,Homens,Amarela,2306
+MT,Homens,Branca,187983
+MT,Homens,Indígena,1728
+MT,Homens,Parda,289529
+MT,Homens,Preta,64138
+MT,Homens,Sem declaração,87
+MT,Mulheres,Amarela,1880
+MT,Mulheres,Branca,143395
+MT,Mulheres,Indígena,1402
+MT,Mulheres,Parda,280509
+MT,Mulheres,Preta,57997
+MT,Mulheres,Sem declaração,34
+PA,Homens,Amarela,1989
+PA,Homens,Branca,190998
+PA,Homens,Indígena,3692
+PA,Homens,Parda,709225
+PA,Homens,Preta,127357
+PA,Homens,Sem declaração,131
+PA,Mulheres,Amarela,1939
+PA,Mulheres,Branca,177086
+PA,Mulheres,Indígena,3683
+PA,Mulheres,Parda,750258
+PA,Mulheres,Preta,118027
+PA,Mulheres,Sem declaração,147
+PB,Homens,Amarela,718
+PB,Homens,Branca,189455
+PB,Homens,Indígena,1425
+PB,Homens,Parda,293944
+PB,Homens,Preta,54280
+PB,Homens,Sem declaração,2
+PB,Mulheres,Amarela,1180
+PB,Mulheres,Branca,185103
+PB,Mulheres,Indígena,1942
+PB,Mulheres,Parda,342330
+PB,Mulheres,Preta,57445
+PB,Mulheres,Sem declaração,44
+PE,Homens,Amarela,1658
+PE,Homens,Branca,386486
+PE,Homens,Indígena,7134
+PE,Homens,Parda,633804
+PE,Homens,Preta,144754
+PE,Homens,Sem declaração,100
+PE,Mulheres,Amarela,3000
+PE,Mulheres,Branca,426848
+PE,Mulheres,Indígena,8890
+PE,Mulheres,Parda,795372
+PE,Mulheres,Preta,170016
+PE,Mulheres,Sem declaração,88
+PI,Homens,Amarela,370
+PI,Homens,Branca,98164
+PI,Homens,Indígena,718
+PI,Homens,Parda,279712
+PI,Homens,Preta,64218
+PI,Homens,Sem declaração,22
+PI,Mulheres,Amarela,715
+PI,Mulheres,Branca,85936
+PI,Mulheres,Indígena,1087
+PI,Mulheres,Parda,305876
+PI,Mulheres,Preta,67466
+PI,Mulheres,Sem declaração,0
+PR,Homens,Amarela,20244
+PR,Homens,Branca,1232472
+PR,Homens,Indígena,2452
+PR,Homens,Parda,566113
+PR,Homens,Preta,100815
+PR,Homens,Sem declaração,142
+PR,Mulheres,Amarela,12942
+PR,Mulheres,Branca,931304
+PR,Mulheres,Indígena,2450
+PR,Mulheres,Parda,468921
+PR,Mulheres,Preta,78219
+PR,Mulheres,Sem declaração,141
+RJ,Homens,Amarela,3258
+RJ,Homens,Branca,951362
+RJ,Homens,Indígena,2766
+RJ,Homens,Parda,915715
+RJ,Homens,Preta,357416
+RJ,Homens,Sem declaração,279
+RJ,Mulheres,Amarela,3462
+RJ,Mulheres,Branca,954835
+RJ,Mulheres,Indígena,3496
+RJ,Mulheres,Parda,980236
+RJ,Mulheres,Preta,467208
+RJ,Mulheres,Sem declaração,422
+RN,Homens,Amarela,862
+RN,Homens,Branca,179815
+RN,Homens,Indígena,1140
+RN,Homens,Parda,238057
+RN,Homens,Preta,58542
+RN,Homens,Sem declaração,0
+RN,Mulheres,Amarela,1153
+RN,Mulheres,Branca,167246
+RN,Mulheres,Indígena,1550
+RN,Mulheres,Parda,248196
+RN,Mulheres,Preta,53252
+RN,Mulheres,Sem declaração,44
+RO,Homens,Amarela,779
+RO,Homens,Branca,79375
+RO,Homens,Indígena,978
+RO,Homens,Parda,143955
+RO,Homens,Preta,28455
+RO,Homens,Sem declaração,9
+RO,Mulheres,Amarela,689
+RO,Mulheres,Branca,55437
+RO,Mulheres,Indígena,951
+RO,Mulheres,Parda,122846
+RO,Mulheres,Preta,21022
+RO,Mulheres,Sem declaração,0
+RR,Homens,Amarela,112
+RR,Homens,Branca,13865
+RR,Homens,Indígena,1991
+RR,Homens,Parda,40374
+RR,Homens,Preta,7480
+RR,Homens,Sem declaração,0
+RR,Mulheres,Amarela,141
+RR,Mulheres,Branca,14426
+RR,Mulheres,Indígena,2911
+RR,Mulheres,Parda,48577
+RR,Mulheres,Preta,6699
+RR,Mulheres,Sem declaração,0
+RS,Homens,Amarela,1534
+RS,Homens,Branca,1405645
+RS,Homens,Indígena,2915
+RS,Homens,Parda,241442
+RS,Homens,Preta,98533
+RS,Homens,Sem declaração,104
+RS,Mulheres,Amarela,1436
+RS,Mulheres,Branca,1170818
+RS,Mulheres,Indígena,2462
+RS,Mulheres,Parda,228595
+RS,Mulheres,Preta,130321
+RS,Mulheres,Sem declaração,115
+SC,Homens,Amarela,2307
+SC,Homens,Branca,1005903
+SC,Homens,Indígena,1513
+SC,Homens,Parda,239027
+SC,Homens,Preta,55845
+SC,Homens,Sem declaração,215
+SC,Mulheres,Amarela,1583
+SC,Mulheres,Branca,743066
+SC,Mulheres,Indígena,1600
+SC,Mulheres,Parda,189119
+SC,Mulheres,Preta,47225
+SC,Mulheres,Sem declaração,92
+SE,Homens,Amarela,418
+SE,Homens,Branca,71021
+SE,Homens,Indígena,838
+SE,Homens,Parda,171059
+SE,Homens,Preta,44283
+SE,Homens,Sem declaração,25
+SE,Mulheres,Amarela,555
+SE,Mulheres,Branca,73710
+SE,Mulheres,Indígena,1026
+SE,Mulheres,Parda,218257
+SE,Mulheres,Preta,51756
+SE,Mulheres,Sem declaração,54
+SP,Homens,Amarela,97594
+SP,Homens,Branca,3895781
+SP,Homens,Indígena,9144
+SP,Homens,Parda,2163456
+SP,Homens,Preta,597604
+SP,Homens,Sem declaração,1810
+SP,Mulheres,Amarela,70296
+SP,Mulheres,Branca,3446863
+SP,Mulheres,Indígena,9086
+SP,Mulheres,Parda,2116701
+SP,Mulheres,Preta,612943
+SP,Mulheres,Sem declaração,2127
+TO,Homens,Amarela,527
+TO,Homens,Branca,51174
+TO,Homens,Indígena,516
+TO,Homens,Parda,127325
+TO,Homens,Preta,34237
+TO,Homens,Sem declaração,16
+TO,Mulheres,Amarela,722
+TO,Mulheres,Branca,38818
+TO,Mulheres,Indígena,568
+TO,Mulheres,Parda,130301
+TO,Mulheres,Preta,31752
+TO,Mulheres,Sem declaração,12
